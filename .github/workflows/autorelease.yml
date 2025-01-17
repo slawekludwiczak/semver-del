@@ -15,5 +15,6 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           architecture: x64
+      - run: echo $GH_USER
       - run: mvn echo:echo
       - run: mvn -B -X release:prepare
