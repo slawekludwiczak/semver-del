@@ -4,11 +4,11 @@
 
     <groupId>com.ludigi</groupId>
     <artifactId>semver2</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <scm>
         <developerConnection>scm:git:https://github.com/slawekludwiczak/semver-del.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v1.0.0</tag>
     </scm>
 
     <properties>
