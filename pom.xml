@@ -7,7 +7,7 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <scm>
-        <developerConnection>scm:git:file://.</developerConnection>
+        <developerConnection>https://github.com/slawekludwiczak/semver-del.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -43,9 +43,7 @@
                     <pushChanges>false</pushChanges>
                     <localCheckout>true</localCheckout>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
-                    <!-- projectVersionPolicyConfig for the ConventionalCommitsVersionPolicy is an XML structure:  -->
                     <projectVersionPolicyConfig>
-                        <!-- versionTag: A regex with 1 capture group that MUST extract the project.version from the SCM tag. -->
                         <versionTag>^v([0-9]+\.[0-9]+\.[0-9]+)$</versionTag>
                     </projectVersionPolicyConfig>
                     <projectVersionPolicyId>ConventionalCommitsVersionPolicy</projectVersionPolicyId>
