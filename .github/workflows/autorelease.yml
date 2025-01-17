@@ -15,4 +15,5 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           architecture: x64
+      - run: mvn echo:echo
       - run: mvn -B -X release:prepare
